@@ -1,0 +1,4 @@
+// Toggle nav menu for mobile
+document.getElementById('menu-toggle').addEventListener('click', function () {
+    document.getElementById('nav-links').classList.toggle('active');
+});

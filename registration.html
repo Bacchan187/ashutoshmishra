@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Join FitZone Gym</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      padding: 30px;
+    }
+
+    .form-container {
+      background: white;
+      max-width: 700px;
+      margin: auto;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    .form-group label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    .submit-btn {
+      background-color: #ff5252;
+      color: white;
+      padding: 12px;
+      border: none;
+      width: 100%;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .submit-btn:hover {
+      background-color: #e04343;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h2>Gym Membership Registration</h2>
+    <form action="#" method="post">
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" required />
+      </div>
+
+      <div class="form-group">
+        <label for="father">Father's Name</label>
+        <input type="text" id="father" required />
+      </div>
+
+      <div class="form-group">
+        <label for="mother">Mother's Name</label>
+        <input type="text" id="mother" required />
+      </div>
+
+      <div class="form-group">
+        <label for="age">Age</label>
+        <input type="number" id="age" required />
+      </div>
+
+      <div class="form-group">
+        <label for="goal">Training Focus</label>
+        <select id="goal" required>
+          <option value="">--Select--</option>
+          <option>Muscle Building</option>
+          <option>Weight Loss</option>
+          <option>Strength Training</option>
+          <option>General Fitness</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="study">Current Education</label>
+        <input type="text" id="study" />
+      </div>
+
+      <div class="form-group">
+        <label for="fees">Payment Method</label>
+        <select id="fees" required>
+          <option>Google Pay</option>
+          <option>Paytm</option>
+          <option>PhonePe</option>
+          <option>Cash</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Any message or request (optional)</label>
+        <textarea id="message" rows="4"></textarea>
+      </div>
+
+      <button type="submit" class="submit-btn">Submit Registration</button>
+    </form>
+  </div>
+</body>
+</html>
